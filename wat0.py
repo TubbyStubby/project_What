@@ -11,7 +11,7 @@ def getQr(browser):
 
 def start():
     options = wd.FirefoxOptions()
-    options.headless = False
+    options.headless = True
     driver = wd.Firefox(options=options, executable_path=r'geckodriver.exe')
     driver.get('https://web.whatsapp.com')
     return driver
