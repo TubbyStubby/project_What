@@ -16,6 +16,12 @@ pip install selenium
 
 geckodriver can be found [here](https://github.com/mozilla/geckodriver/releases)
 
+clone this repo to your project
+```bash
+git clone https://github.com/TubbyStubby/project_What/
+```
+or download as zip and unzip it
+
 ## Usage
 
 ```python
